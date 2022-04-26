@@ -33,3 +33,11 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+.info {
+  font-size: 20px;
+  text-align: center;
+  background: rgba(0, 0, 36, 0.8);
+  transition: 0.5s ease;
+  opacity: 0;
+}
