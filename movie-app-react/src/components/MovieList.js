@@ -1,7 +1,8 @@
 import React from "react";
-import MovieFavorites from "./AddFavorites";
 
 const MovieList = (props) => {
+  const Favorites = props.favoriteComponent;
+
   return (
     <div className="d-flex justify-content-start ">
       {props.movies.map((movie, index) => (
@@ -11,7 +12,8 @@ const MovieList = (props) => {
             onClick={() => props.handleFavouritesClick(movie)}
             className="overlay d-flex align-items-center justify-content-center"
           >
-            <MovieFavorites />
+            {" "}
+            <Favorites />
           </div>
         </div>
       ))}
