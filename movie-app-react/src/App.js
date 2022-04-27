@@ -1,7 +1,7 @@
 import React from "react";
 import Movies from "./Movies.js";
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,5 +19,5 @@ export default function App() {
       </footer>
     </div>
   );
-}
- export default App
+};
+export default App;
